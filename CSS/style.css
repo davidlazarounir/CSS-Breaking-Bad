@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url('../Breaking Bad.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica;
+    background-color: #637124;
+    font-size: 14px;
+    margin: 2rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown; 
+    border-radius: 22px;
+    margin: 80 px;
+    margin-top: 20px;
+}
+
+
+.area {
+    position: absolute;
+    display: block;
+    /*border: 2px dashed red;  Solo para pruebas */
+}
+
+.breaking {
+    width: 180px;  
+    height: 40px;
+    top: 35%;   
+    left: 68%;  
+}
+
+.bad {
+    width: 80px; 
+    height: 40px;
+    top: 48%;
+    left: 77%;
+}
+
+
+
+/* Fondo texto para Index */
+.pagina-index {
+    font-family: 'Breaking Bad', sans-serif;
+    color: white;
+    background-image: url('../IMG/fondo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 40px;
+    margin: 80 px;
+}
+
+.texto-index {
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+/* Fondo de Formulario */
+.pagina-formulario {
+    background-image: url('../IMG/fondo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Contenedor principal del formulario */
+.formulario {
+    
+    width: 450px; 
+    margin: 50px auto; 
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px; 
+    color: white;
+    
+}
+
+legend {
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.campo label {
+    display: inline-block;
+    width: 7rem;
+    text-align: left;
+    
+}
+
+.boton {
+    background-color: #5c8b67;
+    color: white;
+    font-size: 16px;
+    width: 125px;
+    border-radius: 5px;
+}
+
+
+table, tr, td {
+    margin: auto;
+    text-align: center;
+    border: 10px solid black;
+    border-collapse: collapse;
+    background-color: black;
+    empty-cells: hide;
+    
+}
+
+td {
+    width: 80px;
+    height: 80px;
+ 
+}
+
+
+#tabla-pequeña td{
+    width: 75px;  
+    height: 80px; 
+}
+
+#tabla-pequeña img {
+    width: 65px;  
+    height: 65px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.texto-grande {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.texto-pequeño {
+    font-size: 10px;
+    display: block;
+}
+
+.verde1 {
+    
+    background-color: #b8db1b
+}
+
+.verde2 {
+    background-color: #f0f7cc;
+}
+
+.verde3 {
+    background-color: #89a31d;
+}
+
+.verde4 {
+    background-color: #647024;
+}
+
+.verde5 {
+    background-color: #c6e44a;
+}
+
+.verde6 {
+    background-color: #bcc49b;
+}
+
+.verde7 {
+    background-color: #828e51;
+}
+
+.verde8 {
+    background-color: #d6e981;
+}
+
+.violeta {
+    background-color: #ab8fcc;
+}
+
+.verde9 {
+    background-color: #c1c528;
+}
